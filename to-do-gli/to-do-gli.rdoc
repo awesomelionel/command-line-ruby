@@ -1,0 +1,5 @@
+= to-do-gli
+
+Generate this with
+    to-do-gli rdoc
+After you have described your command line interface

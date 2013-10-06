@@ -1,0 +1,18 @@
+The problem with the seperated todo application, 
+though each individual program does only one thing,
+is that:
+1. They share many similar functionalities between them
+2. If we make a change to one file, we must change everything 
+	 just to keep them in sync.
+
+To solve this:
+
+We are going to create an app 'command suite'. A command suite 
+is an app that provides a set of commands, each representing a 
+different function of a related concept. 
+
+In our case, we want an app named todo that has the clear and 
+concise purpose of managing tasks but that does so through a 
+command- style interface.
+
+
